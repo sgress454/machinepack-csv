@@ -1,0 +1,29 @@
+{
+  "name": "machinepack-csv",
+  "version": "0.1.0",
+  "description": "Work with CSV (comma-separated value) data",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha -b"
+  },
+  "keywords": [
+    "CSV",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^0.1.0",
+    "machine": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "machinepack": {
+    "friendlyName": "CSV",
+    "machineDir": "machines/",
+    "machines": [
+      "parse-csv"
+    ]
+  }
+}
